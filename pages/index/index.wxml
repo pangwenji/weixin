@@ -1,0 +1,91 @@
+<import src="../../template/template.wxml"/>
+<!--index.wxml-->
+<view class="container">
+    <view class="custom-info">
+      <view class="info">前端全栈架构师/深圳/创业型</view>
+      <view class="go" bindtap="gotoCustomInfo">
+         <image class="edit" src="../../static/icon/edit.png"></image>
+         <text>编辑</text>
+      </view>
+   </view> 
+    <!--列表-->
+    <!-- <template is="position_link" data='{{positionList}}'></template>
+    <view wf:if='{{showBtn}}' class="list-more" bindtap="loadMore"></view> -->
+    <view class="container">
+     
+         <view class="box">
+           <image  class="tupan"  src="../../static/images/3.jpeg"/>
+           <view class="boxc">
+                <text>腾讯科技有限公司</text>
+               <text class="boxs">{{time}}</text>
+           </view>
+           <view class="boxa"> 15k-30k</view>
+        </view>
+            <view class="box">
+           <image  class="tupan"  src="../../static/images/3.jpeg"/>
+           <view class="boxc">
+                <text>腾讯科技有限公司</text>
+               <text class="boxs">{{time}}</text>
+           </view>
+           <view class="boxa"> 15k-30k</view>
+        </view>
+            <view class="box">
+           <image  class="tupan"  src="../../static/images/3.jpeg"/>
+           <view class="boxc">
+                <text>腾讯科技有限公司</text>
+               <text class="boxs">{{time}}</text>
+           </view>
+           <view class="boxa"> 15k-30k</view>
+        </view>
+            <view class="box">
+           <image  class="tupan"  src="../../static/images/3.jpeg"/>
+           <view class="boxc">
+                <text>腾讯科技有限公司</text>
+               <text class="boxs">{{time}}</text>
+           </view>
+           <view class="boxa"> 15k-30k</view>
+        </view>
+            <view class="box">
+           <image  class="tupan"  src="../../static/images/3.jpeg"/>
+           <view class="boxc">
+                <text>腾讯科技有限公司</text>
+               <text class="boxs">{{time}}</text>
+           </view>
+           <view class="boxa"> 15k-30k</view>
+        </view>
+            <view class="box">
+           <image  class="tupan"  src="../../static/images/3.jpeg"/>
+           <view class="boxc">
+                <text>腾讯科技有限公司</text>
+               <text class="boxs">{{time}}</text>
+           </view>
+           <view class="boxa"> 15k-30k</view>
+        </view>
+         <view class="box">
+           <image  class="tupan"  src="../../static/images/3.jpeg"/>
+           <view class="boxc">
+                <text>腾讯科技有限公司</text>
+               <text class="boxs">{{time}}</text>
+           </view>
+           <view class="boxa"> 15k-30k</view>
+        </view>
+            <view class="box">
+           <image  class="tupan"  src="../../static/images/3.jpeg"/>
+           <view class="boxc">
+                <text>腾讯科技有限公司</text>
+               <text class="boxs">{{time}}</text>
+           </view>
+           <view class="boxa"> 15k-30k</view>
+        </view>
+            <view class="box">
+           <image  class="tupan"  src="../../static/images/3.jpeg"/>
+           <view class="boxc">
+                <text>腾讯科技有限公司</text>
+               <text class="boxs">{{time}}</text>
+           </view>
+           <view class="boxa"> 15k-30k</view>
+        </view>
+        
+
+    </view>
+</view>

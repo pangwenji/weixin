@@ -1,0 +1,7 @@
+    // "pages/index/index",  
+    // "pages/logs/logs",
+    // "pages/search/search",
+    // "pages/mine/mine",
+    // "pages/customlnfo/customInfo",
+    // "pages/customDetail/customDetail",
+    // "pages/resume/resume",

@@ -1,0 +1,89 @@
+.swiper-tab{
+  width: 100%;
+  text-align: center;
+  line-height: 80rpx;}
+.swiper-tab-list{  font-size: 30rpx;
+  display: inline-block;
+  width: 33.33%;
+  color: #777777;
+}
+.on{ color: blue;
+  border-bottom: 3rpx solid blue;}
+
+.swiper-box{ 
+  display: block; height: 600px; width: 100%;  
+}
+.swiper-box view{
+  /* text-align: center; */
+}
+.tab-h{  
+     height: 57rpx;  
+     width: 100%;  
+     line-height: 51rpx;  
+     background: white;  
+     font-size: 16px;  
+     white-space: nowrap;  
+     z-index: 999;  
+     margin-top: 20rpx;
+    }
+.wenzi{
+  width: 230px;
+  height: 50px;
+  position: relative;  
+}
+.hang{
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.left{
+  margin: 12px 12px;
+  justify-content: center;
+}
+.left image{
+  width: 36px;
+  height: 36px;
+    
+}
+.swiper-box .gt{
+  width: 276px; 
+ height: 412px;
+   position: absolute;
+
+}
+.flex-wrap{
+  display: flex;
+  flex-direction: column;
+}
+.flex-box{
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+}
+.flex-boxs{
+  height: 100px;
+  width: 319px;
+  display: flex;
+  flex-direction: row;
+}
+.tupian{
+  width: 131px;
+  height: 80px;
+  
+}
+.letf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12px;
+  text-align: center;
+  margin-right: 12px;
+}

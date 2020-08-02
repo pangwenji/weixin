@@ -1,0 +1,20 @@
+<!--pages/customDetail/customDetail.wxml-->
+<view class="custom-detail">
+  <view class="info">
+    <image class="info-bg" src="../../static/images/back_info.jpg"/>
+    <view class="info-content">
+     <image class="qutoes left-quoste" src="../../static/icon/left_quote.png"></image>
+      <text class="info-desc">想找什么职位</text>
+      <image src="../../static/icon/right_quote.png"></image>
+    </view>
+  </view>
+  <view class="custom-position">
+     <view class="inputer">
+        <input class="input" type="text" placeholder="输入你想找的定制位置"/>
+        <text class="button enable">OK</text>
+     </view>
+      <view class="pre-data">
+          <text class="item text-ellipsis" wx:for="{{['java架构师','前端架构师','ui工程师','SpringBoot','大厂工程师']}}">{{item}}</text>
+      </view>
+  </view>
+</view>

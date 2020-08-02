@@ -1,0 +1,47 @@
+<!--pages/interviewpage/interviewpage.wxml-->
+ <view class="content-list">
+    <view wx:if="{{true}}" class="content-item">
+      <view class="content-item-title text-ellipsis">前端开发工程师（6k-12k）</view>
+      <view class="content-item-desc text-ellipsis">百度科技 [ 深圳 ]</view>
+      <view class="content-item-state">
+        <text class="content-item-time">今天 14:35</text>
+        <text class="content-item-status">【 被查看 】</text>
+      </view>
+    </view>
+    <view wx:else class="content-empty">
+      <text class="text">暂无记录~</text>
+    </view>
+        <view wx:if="{{true}}" class="content-item">
+      <view class="content-item-title text-ellipsis">前端开发工程师（6k-12k）</view>
+      <view class="content-item-desc text-ellipsis">百度科技 [ 深圳 ]</view>
+      <view class="content-item-state">
+        <text class="content-item-time">今天 14:35</text>
+        <text class="content-item-status">【 被查看 】</text>
+      </view>
+    </view>
+    <view wx:else class="content-empty">
+      <text class="text">暂无记录~</text>
+    </view>
+        <view wx:if="{{true}}" class="content-item">
+      <view class="content-item-title text-ellipsis">前端开发工程师（6k-12k）</view>
+      <view class="content-item-desc text-ellipsis">顺丰科技 [ 深圳 ]</view>
+      <view class="content-item-state">
+        <text class="content-item-time">今天 14:35</text>
+        <text class="content-item-status">【 被查看 】</text>
+      </view>
+    </view>
+    <view wx:else class="content-empty">
+      <text class="text">暂无记录~</text>
+    </view>
+        <view wx:if="{{true}}" class="content-item">
+      <view class="content-item-title text-ellipsis">前端开发工程师（6k-12k）</view>
+      <view class="content-item-desc text-ellipsis">微众科技 [ 深圳 ]</view>
+      <view class="content-item-state">
+        <text class="content-item-time">今天 14:35</text>
+        <text class="content-item-status">【 被查看 】</text>
+      </view>
+    </view>
+    <view wx:else class="content-empty">
+      <text class="text">暂无记录~</text>
+    </view>
+  </view>

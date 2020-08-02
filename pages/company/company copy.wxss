@@ -1,0 +1,46 @@
+.swiper-tab{
+  width: 100%;
+  text-align: center;
+  line-height: 80rpx;}
+.swiper-tab-list{  font-size: 30rpx;
+  display: inline-block;
+  width: 33.33%;
+  color: #777777;
+}
+.on{ color: blue;
+  border-bottom: 3rpx solid blue;}
+
+.swiper-box{ 
+  display: block; height: 100%px; width: 100%;  
+}
+.swiper-box view{
+  /* text-align: center; */
+}
+.tab-h{  
+     height: 57rpx;  
+     width: 100%;  
+     line-height: 51rpx;  
+     background: white;  
+     font-size: 16px;  
+     white-space: nowrap;  
+     z-index: 999;  
+     margin-top: 20rpx;
+    }
+.wenzi{
+  width: 23px;
+  height: 234px;
+  position: relative;  
+}
+.hang{
+  display: flex;
+}
+.left{
+  width: 23px;
+  height: 23px;
+}
+.swiper-box .gt{
+  width: 276px; 
+ height: 412px;
+   position: absolute;
+
+}

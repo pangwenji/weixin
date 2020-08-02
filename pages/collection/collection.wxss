@@ -1,0 +1,41 @@
+/* pages/collection/collection.wxss */
+/* pages/collection/collection.wxss */
+.collection-item {
+  display: flex;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.item-logo {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+}
+.item-desc {
+  display: flex;
+  justify-content: space-between;
+}
+.item-desc-l {
+  flex-basis: 70%;
+  flex-shrink: 0;
+  margin: -3px 2px 2px 2px;
+  margin-left: 15px;
+
+}
+.item-desc-r {
+  height: 100%;
+  width: 73%;
+  display: flex;
+
+}
+.button-collect {
+  display: block;
+  margin: 16px auto 18px auto;
+  width: 20px;
+  height: 20px;
+}
+.item-salary{
+  width: 23px;
+  font-size: 13px;
+  margin:12px;
+  position:relative;
+}

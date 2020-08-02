@@ -1,0 +1,137 @@
+<!--pages/collection/collection.wxml-->
+<view class="collection">
+  <view class="collection-list">
+    <view class="collection-item">
+      <image class="item-logo" src="../../static/images/2.jpeg" />
+      <view class="item-desc">
+        <view class="item-desc-l">
+          <view class="item-title text-ellipsis">字节跳动</view>
+          <view class="item-info">
+            <text class="item-pos">前端工程师[深圳]</text>
+          </view>
+          <view class="item-time">2020-05-26</view>
+        </view>
+        <view class="item-desc-r">
+          <image wx:if="{{false}}" class="button-collect" src="../../static/icon/star.png" />
+          <image wx:if="{{true}}" class="button-collect" src="../../static/icon/star_o.png" />
+          <view class="item-salary">15k-25k</view>
+        </view>
+      </view>
+    </view>
+    <view class="collection-item">
+        <image class="item-logo" src="../../static/images/company.jpg" />
+        <view class="item-desc">
+          <view class="item-desc-l">
+            <view class="item-title text-ellipsis">腾讯互娱</view>
+            <view class="item-info">
+              <text class="item-pos">前端工程师[深圳]</text>
+            </view>
+            <view class="item-time">2020-05-26</view>
+          </view>
+          <view class="item-desc-r">
+            <image class="button-collect" src="../../static/icon/star.png" />
+            <view class="item-salary">15k-25k</view>
+          </view>
+        </view>
+      </view>
+        <view class="collection-item">
+      <image class="item-logo" src="../../static/images/2.jpeg" />
+      <view class="item-desc">
+        <view class="item-desc-l">
+          <view class="item-title text-ellipsis">字节跳动</view>
+          <view class="item-info">
+            <text class="item-pos">前端工程师[深圳]</text>
+          </view>
+          <view class="item-time">2020-05-26</view>
+        </view>
+        <view class="item-desc-r">
+          <image wx:if="{{false}}" class="button-collect" src="../../static/icon/star.png" />
+          <image wx:if="{{true}}" class="button-collect" src="../../static/icon/star_o.png" />
+          <view class="item-salary">15k-25k</view>
+        </view>
+      </view>
+    </view>
+    <view class="collection-item">
+        <image class="item-logo" src="../../static/images/company.jpg" />
+        <view class="item-desc">
+          <view class="item-desc-l">
+            <view class="item-title text-ellipsis">腾讯互娱</view>
+            <view class="item-info">
+              <text class="item-pos">前端工程师[深圳]</text>
+            </view>
+            <view class="item-time">2020-05-26</view>
+          </view>
+          <view class="item-desc-r">
+            <image class="button-collect" src="../../static/icon/star.png" />
+            <view class="item-salary">15k-25k</view>
+          </view>
+        </view>
+      </view>
+        <view class="collection-item">
+      <image class="item-logo" src="../../static/images/2.jpeg" />
+      <view class="item-desc">
+        <view class="item-desc-l">
+          <view class="item-title text-ellipsis">字节跳动</view>
+          <view class="item-info">
+            <text class="item-pos">前端工程师[深圳]</text>
+          </view>
+          <view class="item-time">2020-05-26</view>
+        </view>
+        <view class="item-desc-r">
+          <image wx:if="{{false}}" class="button-collect" src="../../static/icon/star.png" />
+          <image wx:if="{{true}}" class="button-collect" src="../../static/icon/star_o.png" />
+          <view class="item-salary">15k-25k</view>
+        </view>
+      </view>
+    </view>
+    <view class="collection-item">
+        <image class="item-logo" src="../../static/images/company.jpg" />
+        <view class="item-desc">
+          <view class="item-desc-l">
+            <view class="item-title text-ellipsis">腾讯互娱</view>
+            <view class="item-info">
+              <text class="item-pos">前端工程师[深圳]</text>
+            </view>
+            <view class="item-time">2020-05-26</view>
+          </view>
+          <view class="item-desc-r">
+            <image class="button-collect" src="../../static/icon/star.png" />
+            <view class="item-salary">15k-25k</view>
+          </view>
+        </view>
+      </view>
+        <view class="collection-item">
+      <image class="item-logo" src="../../static/images/2.jpeg" />
+      <view class="item-desc">
+        <view class="item-desc-l">
+          <view class="item-title text-ellipsis">字节跳动</view>
+          <view class="item-info">
+            <text class="item-pos">前端工程师[深圳]</text>
+          </view>
+          <view class="item-time">2020-05-26</view>
+        </view>
+        <view class="item-desc-r">
+          <image wx:if="{{false}}" class="button-collect" src="../../static/icon/star.png" />
+          <image wx:if="{{true}}" class="button-collect" src="../../static/icon/star_o.png" />
+          <view class="item-salary">15k-25k</view>
+        </view>
+      </view>
+    </view>
+    <view class="collection-item">
+        <image class="item-logo" src="../../static/images/company.jpg" />
+        <view class="item-desc">
+          <view class="item-desc-l">
+            <view class="item-title text-ellipsis">腾讯互娱</view>
+            <view class="item-info">
+              <text class="item-pos">前端工程师[深圳]</text>
+            </view>
+            <view class="item-time">2020-05-26</view>
+          </view>
+          <view class="item-desc-r">
+            <image class="button-collect" src="../../static/icon/star.png" />
+            <view class="item-salary">15k-25k</view>
+          </view>
+        </view>
+      </view>
+  </view>
+</view>

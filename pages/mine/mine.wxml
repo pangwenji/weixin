@@ -1,0 +1,33 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+  <view class="login-info">
+    <view wx:if='{{false}}' class="nologin center">
+      <text class="loginbut">登录/注册</text>
+    </view>
+    <view wx:if='{{true}}' class="has-login center">
+      <text class="view-resume" bindtap="viewResume">简历>></text>
+      <image class="head-pic" src='../../static/images/company.jpg'></image>
+      <view class="name">深空探索</view>
+    </view>
+  </view>
+  <view class='buttons'>
+    <view class="button" bindtap="viewDeliver">
+      <text class="deliver">投递</text>
+      <text class="num">2</text>
+    </view>
+    <view class="button" bindtap="viewInterview">
+      <text class="interview">面试</text>
+      <text class="num">2</text>
+    </view>
+    <view class="button">
+      <text class="invitation" bindtap="viewInterviews">邀约</text>
+      <text class="num">2</text>
+    </view>
+    <view class="button" bindtap="viewCollect">
+      <text class="collect">收藏</text>
+      <text class="num">2</text>
+    </view>
+  </view>
+  <text class="logout">退出登录</text>
+</view>
+

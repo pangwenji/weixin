@@ -1,0 +1,5 @@
+<!--pages/curriculum/curriculum.wxml-->
+
+<view wx:for="{{list}}" >
+    {{item.value}}
+</view>

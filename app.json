@@ -1,0 +1,71 @@
+{
+  "pages":[
+    "pages/index/index",  
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/mine/mine",
+    "pages/customlnfo/customInfo",
+    "pages/customDetail/customDetail",
+    "pages/resume/resume",
+    "pages/collection/collection",
+    "pages/deliver/deliver",
+    "pages/deliverDetail/deliverDetail",
+    "pages/postionDetail/postionDetail",
+    "pages/companyDetail/companyDetail",
+    "pages/interview/interview",
+    "pages/inappropriate/inappropriate",
+    "pages/interviewpage/interviewpage",
+    "pages/company/company",
+    "pages/Explorevideo/Explorevideo",
+    "pages/List/List",
+    "pages/Companylibrary/Companylibrary",
+    "pages/curriculum/curriculum"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF44FF",
+    "navigationBarTitleText": "拉勾网",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#c2cfcc",
+    "selectedColor":"#00b38a",
+  
+    "backgroundColor":"#f6f6f6",
+    "position":"bottom",
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "static/icon/home_normal.png",
+      "selectedIconPath": "static/icon/home_active.png"
+    },
+    {
+      "pagePath": "pages/company/company",
+      "text": "公司", 
+      "iconPath": "static/icon/公司.png",
+      "selectedIconPath": "static/icon/公司.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "消息",
+      "iconPath": "static/icon/消息.png",
+      "selectedIconPath": "static/icon/消息.png"
+    },
+    {
+      "pagePath": "pages/curriculum/curriculum", 
+      "text": "课程",
+      "iconPath": "static/icon/课程.png",
+      "selectedIconPath": "static/icon/课程.png"
+    },
+    {
+      "pagePath": "pages/mine/mine", 
+      "text": "我的",
+      "iconPath": "static/icon/user_normal.png",
+      "selectedIconPath": "static/icon/user_active.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

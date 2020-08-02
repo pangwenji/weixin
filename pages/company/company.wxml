@@ -1,0 +1,95 @@
+<view class="swiper-tab">
+      <scroll-view scroll-x='true'  class='tab-h'>
+         <view class="swiper-tab-list {{currentTab===0 ? 'on' : ''}}" data-current='0' bindtap="swichNav">探秘视频</view>
+         <view class="swiper-tab-list {{currentTab===1 ? 'on' : ''}}" data-current='1' bindtap="swichNav">榜单</view>
+         <view class="swiper-tab-list {{currentTab===2 ? 'on' : ''}}" data-current='2' bindtap="swichNav">公司库</view>
+      </scroll-view>
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="500"  style="height:{{winHeight - 31}}px" bindchange="bindChange">
+     <swiper-item class="ght">
+  
+              <view>
+                   <swiper class="lunbo" indicator-dots="true" autoplay="true" interval="3000" circular="true">
+                      <swiper-item>
+                         <image src="../../static/fengjing/1.jpg"/>
+                      </swiper-item>
+                       <swiper-item>
+                         <image src="../../static/fengjing/2.jpeg"/>
+                      </swiper-item>
+                       <swiper-item>
+                         <image src="../../static/fengjing/3.jpg"/>
+                      </swiper-item>
+                       <swiper-item>
+                         <image src="../../static/fengjing/4.jpg"/>
+                      </swiper-item>
+                   </swiper>
+              </view>
+  
+        <view class="wenzi"> 团队氛围那家强？爆笑采访   更多  </view>
+        <view class="flex-wrap" >
+             <view class="flex-box">
+                <view class="letf">
+                  <image class="tupian" src="/static/company/1.png"/>
+                  <text style="font-size:11px;color: gray;">space太空探索公司</text>
+                </view>
+                <view class="right">
+                  <image class="tupian" src="/static/company/2.jpg"/>
+                  <text style="font-size:11px;color: gray;">space太空探索公司</text>
+                </view>
+             </view>
+            <view class="flex-boxs">
+                    <view class="letf">
+                  <image class="tupian" src="/static/company/3.jpg"/>
+                  <text style="font-size:11px;color: gray;">space太空探索公司</text>
+                </view>
+                <view class="right">
+                  <image class="tupian" src="/static/company/4.jpg"/>
+                  <text style="font-size:11px;color: gray;">space太空探索公司</text>
+                </view>
+             </view>
+           
+        </view>
+        <!-- 团队氛围那家强？爆笑采访 -->
+     </swiper-item>
+      <swiper-item class="gt">
+             <scroll-view scroll-y="true">
+               <view class="container">
+                     <view class="title">
+                        2020品牌"C位"争夺榜单 更多
+                     </view>
+                     <text>
+                        品牌成长崛起图鉴
+                     </text>
+                     <view class="hang">
+                        <view class="left"><image src="../../static/fengjing/6.jpeg"></image></view>
+                        <view class="rigth">
+                          <view> 微博</view>
+                          <view>北京!一家服务于中国及全球</view>
+                        </view>
+                     </view>
+                     
+               </view>
+                  <view class="container">
+                     <view class="title">
+                        2020品牌"C位"争夺榜单 更多
+                     </view>
+                     <text>
+                        品牌成长崛起图鉴
+                     </text>
+                     <view class="hang">
+                        <view class="left"><image src="../../static/fengjing/6.jpeg"></image></view>
+                        <view class="rigth">
+                          <view> 微博</view>
+                          <view>北京!一家服务于中国及全球</view>
+                        </view>
+                     </view>
+               </view>
+           </scroll-view>
+     </swiper-item>
+    <swiper-item class="ght">
+           <scroll-view scroll-y="true">
+            公司库<my-hello title="form my hello"></my-hello>
+           </scroll-view>
+     </swiper-item>
+</swiper> 
